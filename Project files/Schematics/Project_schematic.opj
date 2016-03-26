@@ -1,0 +1,130 @@
+(ExpressProject "Project_schematic"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\project_schematic.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (PORTLEFT-L
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("PHONEJACK STEREO SW"
+      (FullPartName "PHONEJACK STEREO SW.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("Capacitor Non Polarized"
+      (FullPartName "Capacitor Non Polarized.Normal")
+      (LibraryName "M:\ESD\ORCAD\ESDLIB.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR DUAL NON-POL"
+      (FullPartName "CAPACITOR DUAL NON-POL.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BUZZER
+      (FullPartName "BUZZER.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\ELECTROMECHANICAL.OLB")
+      (DeviceIndex "0"))
+    ("MOTOR STEPPER"
+      (FullPartName "MOTOR STEPPER.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\ELECTROMECHANICAL.OLB")
+      (DeviceIndex "0"))
+    (ULN2003A
+      (FullPartName "ULN2003A.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (G109
+      (FullPartName "G109.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\MISC.OLB")
+      (DeviceIndex "0"))
+    (UPC2758T/SOT
+      (FullPartName "UPC2758T/SOT.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\MISC2.OLB")
+      (DeviceIndex "0"))
+    (TLV1543M/LCC
+      (FullPartName "TLV1543M/LCC.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\ATOD.OLB")
+      (DeviceIndex "0"))
+    (TLV1543
+      (FullPartName "TLV1543.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\ATOD.OLB")
+      (DeviceIndex "0"))
+    (Resistor
+      (FullPartName "Resistor.Normal")
+      (LibraryName "M:\ESD\ORCAD\ESDLIB.OLB")
+      (DeviceIndex "0"))
+    (LM317/CYL
+      (FullPartName "LM317/CYL.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (LP2950-X/CYL
+      (FullPartName "LP2950-X/CYL.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (BATTERY
+      (FullPartName "BATTERY.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 398"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1394 78 515")
+        (Scroll "-149 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "M:\ESD\PROJECT\PROJECT_SCHEMATIC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Power Circuit"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1049 26 463")
+        (Scroll "-80 0")
+        (Zoom "84")
+        (Occurrence "/"))
+      (Path "M:\ESD\PROJECT\PROJECT_SCHEMATIC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Audio circuit"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 208 1231 208 645")
+        (Scroll "-338 -4")
+        (Zoom "84"))
+      (Path "M:\ESD\PROJECT\PROJECT_SCHEMATIC.DSN")
+      (Schematic "SCHEMATIC2")
+      (Page "BeagleBoneBlack and Peripherals")))
+  (LastUsedLibraryBrowseDirectory "C:\OrCAD\OrCAD_16.6_Lite\bin")
+  (MPSSessionName "MANOHAR"))
